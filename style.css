@@ -37,26 +37,20 @@ body{
 img{
     border-radius: 13px;
 }
-.bold{
-    white-space: nowrap;
-    padding: 1rem;
+
+h1{
     font-size: 18px;
-    font-weight: bolder;
-    color:  hsl(218, 44%, 22%);
-    line-height: 1.4;
-  
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: hsl(218, 44%, 22%);
 }
-
-
-section{
-  padding-bottom: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    font-size: 13px;
-    color: hsl(220, 15%, 55%);
-}
-
 p{
+    font-size: 14px;
+    padding-bottom: 2rem;
+    color:hsl(220, 15%, 55%);
+}
+
+div{
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
 }
