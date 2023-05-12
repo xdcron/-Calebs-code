@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: '0utfit',sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(212, 45%, 89%);
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+    width: 270px;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+img{
+    border-radius: 13px;
+}
+.bold{
+    white-space: nowrap;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: bolder;
+    color:  hsl(218, 44%, 22%);
+    line-height: 1.4;
+  
+}
+
+
+section{
+  padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: hsl(220, 15%, 55%);
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+}
